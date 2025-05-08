@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Update Status</title>
+</head>
+<body>
+  <h2>อัปเดตสถานะบิล</h2>
+  <form id="updateForm">
+    <label>เลขบิล:</label>
+    <input type="text" id="invoiceId" required>
+
+    <label>สถานะใหม่:</label>
+    <select id="newStatus" required>
+      <option value="รอตรวจสอบ">รอตรวจสอบ</option>
+      <option value="ชำระแล้ว">ชำระแล้ว</option>
+      <option value="ยกเลิก">ยกเลิก</option>
+    </select>
+
+    <button type="submit">อัปเดตสถานะ</button>
+  </form>
+</body>
+</html>
